@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <meta content='IE=edge' http-equiv='X-UA-Compatible'>
+    <meta content='width=device-width, initial-scale=1' name='viewport'>
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+
+		<!-----------Favicon---------->
+	<link rel="icon" type="image/png" sizes="192x192"  href="../image/fav/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../image/fav/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="../image/fav/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../image/fav/favicon-16x16.png">
+	
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/font-awesome.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Contact Form - sent to a Google Sheet -->
+	
+	<div class="container">
+	<div class="row">
+	<div class="col-md-8 col-md-offset-2">
+		<!-- Social Button-->
+		<div class="text-center center-block"> 
+		 <a href="https://www.facebook.com/LearnDevOps/" target="_blank"><i class="fa fa-facebook-square fa-3x social"></i></a>
+	     <a href="https://twitter.com/LearnDevOps1" target="_blank"><i class="fa fa-twitter-square fa-3x social"></i></a>
+	     <a href="https://learndevops.tumblr.com/" target="_blank"><i class="fa fa-tumblr-square fa-3x social"></i></a>
+	     <a href="https://in.pinterest.com/learndevops/" target="_blank"><i class="fa fa-pinterest-square fa-3x social"></i></a>
+		 <a href="http://www.learndevops.in/" target="_blank"><i class="fa fa-globe fa-3x social"></i></a>
+		 <a href="https://learndevops1.wordpress.com/" target="_blank"><i class="fa fa-wordpress fa-3x social"></i></a>
+		</div>
+		
+		<div class="panel panel-primary">
+			<div class="panel-heading"><h3 class="text-center">Upcoming Workshops - Register Now!!!</h3></div>
+		</div>
+		<h2 class="page-header">Training & Workshop</h2>
+
+    <form id='foo' data-toggle="validator" method="post">
+
+	<div class="form-group"> <!-- Name field -->
+		<label class="control-label " for="name">Full Name</label>*
+		<input class="form-control" id="name" name="name" type="text" placeholder="Full Name"/>
+	</div>
+	
+	<div class="form-group"> <!-- Name field -->
+		<label class="control-label " for="number">Mobile Number</label>*
+		<input class="form-control" id="number" name="number" type="number" placeholder="Enter Your Mobile Number" required/>
+	</div>
+		
+	<div class="form-group"> <!-- Email field -->
+		<label class="control-label requiredField" for="email">Email<span class="asteriskField">*</span></label>
+		<input class="form-control" id="email" name="email" type="email" placeholder="Enter Email" data-error="Bruh, that email address is invalid" required>
+	</div>
+	
+	<div class="form-group"> <!-- Trainig field -->
+		<label class="control-label" for="training">Training</label>
+		 <select name="training" class="form-control" id="training">
+			<option>Choose Your Course</option>
+			<option>Puppet Training & Workshop (Fundamental + Advance)</option>
+			<option>Chef Training & Workshop (Fundamental + Advance)</option>
+			<option>Devops Using Git, Maven, Nexus, Jenkins & Chef</option>
+			<option>Devops Using Git, Maven, Nexus, Jenkins & Puppet</option>
+			<option>Advance Docker Training & Workshop</option>
+		</select>
+	</div>
+	
+	<div class="form-group"> <!-- Location field -->
+		<label class="control-label " for="location">Location</label>
+		  <select name="location" class="form-control" id="location">
+			<option>Choose Your Location</option>
+			<option>Hyderabad</option>
+			<option>Bangalore</option>
+			<option>Pune</option>
+			<option>Delhi</option>
+			<option>Mumbai</option>
+			<option>Amsterdam</option>
+			<option>London</option>
+			<option>Singapore</option>
+			<option>San Francisco</option>
+		  </select>
+	</div>
+	
+	<div class="form-group"> <!-- Message field -->
+		<label class="control-label " for="message">Message</label>
+		<textarea class="form-control" cols="40" id="message" name="message" rows="3" placeholder="Please write your specific Questions...."></textarea>
+	</div>
+	
+	        <div id="messages" class="hide" role="alert">
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <div id="messages_content"></div>
+            </div>
+	
+	<div class="form-group">
+		<button class="btn btn-primary " name="submit" type="submit">Submit</button>
+	</div>
+</form>
+</div>
+</div></div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <!-- Custom Theme JavaScript -->
+  	<script src='js/google-sheet.js'></script>
+	<script src='js/validate.min.js'></script>
+	
+	        <script>
+            $('#foo').submit(function(e) {
+                $('#messages').removeClass('hide').addClass('alert alert-success alert-dismissible').slideDown().show();
+                $('#messages_content').html('<h4>Thanks for your submission. We will get in touch with you shortly! If you want immediate assistance, please call us on +91 9939272785 or email us at info@scmGalaxy.com</h4>');
+                $('#modal').modal('show');
+                e.preventDefault();
+            });
+        </script> 
+</html>

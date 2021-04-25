@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://www.learndevops.in/</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.learndevops.in/devops.html</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.learndevops.in/Build-And-Release-JAVA.html</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.learndevops.in/build-and-release-dot-net.html</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.learndevops.in/Chef.html</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.learndevops.in/dockers.html</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.learndevops.in/puppet.html</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.learndevops.in/git-training.html</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.learndevops.in/register/index.html</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.learndevops.in/contact.html</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.learndevops.in/index.html</loc>
+  <changefreq>daily</changefreq>
+</url>
+</urlset>
